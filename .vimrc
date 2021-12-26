@@ -1,0 +1,14 @@
+set autoindent
+set clipboard=unnamedplus
+set mouse=a
+set history=500
+set autoread
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+set number
+syntax enable
+colorscheme desert
+set encoding=utf8
+set ffs=unix,dos,mac
