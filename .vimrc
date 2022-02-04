@@ -1,3 +1,4 @@
+set nowrap
 set autoindent
 set clipboard=unnamedplus
 set mouse=a
