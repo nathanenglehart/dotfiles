@@ -1,4 +1,4 @@
-set nowrap
+set display=lastline
 set autoindent
 set clipboard=unnamedplus
 set mouse=a
@@ -13,3 +13,4 @@ syntax enable
 colorscheme desert
 set encoding=utf8
 set ffs=unix,dos,mac
+autocmd BufWritePost *.tex silent! execute "!xelatex -interaction=nonstopmode % >/dev/null 2>&1" | redraw!
