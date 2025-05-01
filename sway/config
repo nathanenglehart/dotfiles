@@ -42,6 +42,10 @@ output * bg /usr/share/backgrounds/default.png fill
 # Set laptop display to full resolution
 output eDP-1 scale 1
 
+# dell ultrasharps
+# output HDMI-A-2 pos 0 0
+# output DP-1 pos 3840 0
+
 ### Idle configuration
 #
 # Example configuration:
