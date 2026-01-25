@@ -26,3 +26,6 @@ unset rc
 
 HISTSIZE=100000
 HISTFILESIZE=200000
+
+# make it so that firefox can auto open stuff
+complete -o default -o filenames firefox
