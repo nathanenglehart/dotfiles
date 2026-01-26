@@ -28,3 +28,6 @@ augroup number_for_code
   autocmd FileType python,r setlocal number
 augroup END
 
+" sometimes error bells are too loud!
+set noerrorbells visualbell
+set t_vb=
