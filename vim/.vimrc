@@ -8,7 +8,7 @@ set hlsearch
 set incsearch
 set encoding=utf-8
 set nocompatible
-set cursorline
+"set cursorline
 set ffs=unix,dos,mac
 
 " coloring in lstlisting code snippets
